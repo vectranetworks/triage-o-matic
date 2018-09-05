@@ -1,0 +1,19 @@
+{
+  "brain" : {
+    "url": "se.demo.vectranetworks.com",
+    "token": "163b3e23eea2e2133da8e1d5cac00d75add4abae",
+    "triage_category": "SDA : iPhone Rule"
+  },
+
+  "detection": {
+    "detection_category": "command & control",
+    "detection_type": "Suspect Domain Activity",
+    "regular_expression": "iphone",
+    "description": "Automatically maintained triage rule, do not edit, delete if necessary"
+  },
+
+  "triage-o-matic": {
+    "interval": 600,
+    "log_level": "DEBUG"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "brain" : {
+    "url": "enter your brain url here",
+    "token": "enter your token here",
+    "triage_category": "SDA : iPhone Rule"
+  },
+
+  "detection": {
+    "detection_category": "command & control",
+    "detection_type": "Suspect Domain Activity",
+    "regular_expression": "iphone",
+    "description": "Automatically maintained triage rule, do not edit, delete if necessary"
+  },
+
+  "triage-o-matic": {
+    "interval": 600,
+    "log_level": "DEBUG"
+  }
+}
