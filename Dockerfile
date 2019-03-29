@@ -1,4 +1,4 @@
-FROM python:3.7-stretch
+FROM python:3.7-slim
 
 RUN mkdir /triage-o-matic
 RUN mkdir /triage-o-matic/config
